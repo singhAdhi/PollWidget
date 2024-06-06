@@ -14,6 +14,9 @@
 
 .poll-margin {
   margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .polling-head {
@@ -39,7 +42,7 @@
 }
 
 .poll-options {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 
 }
 
@@ -97,7 +100,6 @@
     flex-direction: row;
   }
 
-
 }
 
 @media (max-width: 480px) {
@@ -142,7 +144,7 @@
 
   .poll-container {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
   }
 
 
@@ -154,7 +156,7 @@
   }
 
   .poll-container {
-    max-width: 600px;
+    max-width: 500px;
   }
 
   .polling-head {

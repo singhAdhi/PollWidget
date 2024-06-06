@@ -54,7 +54,7 @@ const PollWidget = ({ question, options }) => {
               <span
                 className="poll-numbers"
                 style={{
-                  width: data[item] * 4,
+                  width: data[item] * 2,
                   backgroundColor: data[item] > 0 ? "#007bff" : "transparent",
                   color: "currentcolor",
                 }}
